@@ -1,0 +1,276 @@
+#calculator-container {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 400px;
+    height: 620px;
+    background-color: black;
+    border: 10px solid steelblue;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#display {
+    height: 150px;
+    border-radius: 12px;
+    margin: 5px;
+    border: 5px solid black;
+    background-color:aliceblue;
+}
+
+#equation {
+    height: 75px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    margin: 10px;
+}
+
+#topbuttons {
+    display: grid;
+    grid-template-columns: 98%;
+}
+
+#startrow,
+#middlerow,
+#endrow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#lastrow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#clearbtn {
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: xx-large; 
+    margin-left: 5px;
+}
+
+
+
+#btn3,
+#btn6,
+#btn9 {
+    background-color: #217C7E;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 90%;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+}
+
+#btnplus,
+#btnminus,
+#btnmultiply,
+#btndivide {
+    background-color: #FF8F1F;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 90%;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+}
+
+#btn2,
+#btn5,
+#btn8,
+#equalsbtn {
+    margin-left: 15px;
+}
+
+#btn3,
+#btn9,
+#btn6,
+#dividebtn {
+    margin-left: 10px;
+}
+
+#clearbtn:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover,
+#btn6:hover,
+#btn7:hover,
+#btn8:hover,
+#btn9:hover,
+#btn0:hover,
+#btnplus:hover,
+#btnminus:hover,
+#btnmultiply:hover,
+#btndivide:hover,
+#btnequals:hover {
+    background-color: lightsteelblue;
+    cursor: pointer;
+}
+
+#btnequals {
+    margin-left: 15px;
+}
+
+#btndivide {
+    margin-left: 10px;
+}
+
+#btn7,
+#btn4,
+#btn1,
+#btn0 {
+    background-color: #217C7E;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 105%;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+}
+
+#btn8,
+#btn5,
+#btn2 {
+    background-color: #217C7E;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 90%;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#result {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    margin-top: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+#btnplus,
+#btnminus,
+#btnmultiply { 
+    background-color: #FF8F1F;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 92%;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+}
+#btndivide,
+#btnmultiply,
+#btnminus,
+#btnplus,
+#btnequals,
+#btn0,
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9,
+#clearbtn {
+    color: black;
+}
+
+#btn0 {
+    background-color: #217C7E;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+}
+
+#btnequals {
+    background-color: #217C7E;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 93%;
+    border: 5px solid black;
+    border-radius: 12px;;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#result {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    margin-top: 25px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+#btndivide {
+    background-color: #FF8F1F;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 85px;
+    width: 92.5%;
+    border: 5px solid black;
+    border-radius: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-right: 65px;
+}
